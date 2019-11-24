@@ -146,7 +146,7 @@ func main() {
 
 	logOptions = make(map[int]int) // not used ???
 
-	Info.Printf("start %s", service)
+	Info.Printf("%s started", service)
 
 	for true {
 		time.Sleep(49 * time.Second) //49
